@@ -6,7 +6,7 @@ public class HolaMundo {
         System.out.print("Hola, como te llamas? ");
         String nombre = s.next();
 
-        System.out.println("Encantado, " + nombre);
+        System.out.println("Encantado, asdadasdsadasdsa" + nombre);
         s.close();;
     }
 }
