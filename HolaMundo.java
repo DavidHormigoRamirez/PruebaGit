@@ -1,6 +1,12 @@
+import java.util.Scanner;
 
 public class HolaMundo {
     public static void main(String[] args) {
-        System.out.println("Hola Mundo");
+        Scanner s = new Scanner(System.in);
+        System.out.print("Hola, como te llamas? ");
+        String nombre = s.next();
+
+        System.out.println("Encantado, " + nombre);
+        s.close();;
     }
 }
